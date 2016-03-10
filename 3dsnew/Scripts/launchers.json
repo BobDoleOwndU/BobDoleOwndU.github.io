@@ -1,0 +1,17 @@
+﻿{
+  "gateway": {
+    "title": "Gateway",
+    "payload": "Launcher.dat",
+    "image": "dummy.png"
+  },
+  "rxtools": {
+    "title": "rxTools",
+    "payload": "rxTools/sys/code.bin",
+    "image": "dummy.png"
+  },
+  "custom": {
+    "title": "Custom",
+    "payload": "Payload.dat",
+    "image": "dummy.png"
+  }
+}

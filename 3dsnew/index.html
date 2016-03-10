@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Spider Tools!</title>
+</head>
+<body>
+    <div id="launchers"></div>
+
+    <script>
+        var xml = new XMLHttpRequest();
+        xml.open('GET', '/3dsnew/Scripts/launchers.json', false);
+        xml.send();
+        
+        var parsed = JSON.parse(xml.responseText);
+
+        var launchers = []
+
+        for (var o in parsed)
+        {
+            if(parsed.hasOwnProperty(o))
+            {
+                var p = parsed[o];
+
+                launchers.push({
+                    title: p.title,
+                    payload: p.payload,
+                    image: p.image
+                })
+            } //if ends
+        } //for ends
+
+        for (var i = 0; i < launchers.length; i++)
+        {
+            document.getElementById('launchers').innerHTML += '<div>' +
+                '<a href="go.html?' + launchers[i].payload + '"><img src="assets/images/' + launchers[i].image + '"/></a>' +
+                '</div>';
+        } //for ends
+    </script>
+</body>
+</html>

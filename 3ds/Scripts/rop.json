@@ -1,0 +1,59 @@
+{
+"gateway":{
+	"title":"Gateway launcher\nGateway"
+	,"icon":"/3ds/assets/images/gateway.png"
+	,"rop":"GW%spiderver%.dat"
+	,"params":[
+	{
+		"title":"Launcher filename"
+		,"value":"Launcher.dat"
+		,"fixed":1
+	}
+	]
+}
+,"rxtools":{
+	"title":"rxTools\nroxas75"
+	,"icon":"/3ds/assets/images/rxtools.png"
+	,"rop":"GW%spiderver%.dat"
+	,"params":[
+	{
+		"title":"Launcher filename"
+		,"value":"rxTools.dat"
+		,"fixed":1
+	}
+	]
+}
+,"custom":{
+	"title":"Custom launcher"
+	,"icon":"/3ds/assets/images/icon_ar.png"
+	,"rop":"GW%spiderver%.dat"
+	,"params":[
+	{
+		"title":"Launcher filename"
+		,"value":"Launcher.dat"
+	}
+	]
+}
+,"loadcode":{
+	"title":"Load code\nYifan Lu"
+	,"icon":"/3ds/assets/images/icon_ar.png"
+	,"rop":"LoadCode%spiderver%.dat"
+	,"params":[
+	{
+		"title":"ARM code filename"
+		,"value":"code.bin"
+	}
+	]
+}
+,"loadrop":{
+	"title":"Load ROP\nYifan Lu"
+	,"icon":"/3ds/assets/images/icon_ar.png"
+	,"rop":"LoadROP%spiderver%.dat"
+	,"params":[
+	{
+		"title":"ROP code filename"
+		,"value":"ROP.dat"
+	}
+	]
+}
+}

@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Space Infiltrators!</title>
+
+    <!--CSS Section-->
+    <link href="/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="/Content/styles.css" rel="stylesheet" />
+
+    <!--JavaScript Section-->
+    <script src="/Scripts/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("/header.html");
+            $("#footer").load("/footer.html");
+        });
+    </script>
+</head>
+<body>
+    <div id="header"></div>
+
+    <!--Content Section-->
+    <div class="container-fluid">
+        <div class="info-container">
+            <h1><strong>Space Infiltrators!</strong></h1>
+            <div class="info">
+                <img src="../assets/images/space_infiltrators.png" alt="Space Infiltrators" />
+                <h3>What is Space Infiltrators?</h3>
+                <p><em>Space Infiltrators</em> is a horizontal JavaScript remake of the classic game <em>Space Invaders</em>.</p>
+                <p>Space Infiltrators was designed and created by BobDoleOwndU in about a week.</p>
+                <p>All assets except sound effects were created by BobDoleOwndU.</p>
+                <p><strong>Note: A newer more well sized version of this game is in development.</strong></p>
+                <p>Q: What's the highest score ever acheived on this game?</p>
+                <p>A: The highest score ever acheived was by myself at 49934 points. I've not come anywhere close to that score since I earned it. If you have beaten this score (with proof), tell me and I'll update this!</p>
+                <a href="/spaceinfiltrators/play" class="btn btn-primary">Play</a>
+            </div>
+        </div>
+    </div class="container-fluid">
+
+    <div id="footer"></div>
+</body>
+</html>

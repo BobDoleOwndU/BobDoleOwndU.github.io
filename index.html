@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Welcome!</title>
+
+    <!--CSS Section-->
+    <link href="/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="/Content/styles.css" rel="stylesheet" />
+
+    <!--JavaScript Section-->
+    <script src="/Scripts/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("/header.html");
+            $("#footer").load("/footer.html");
+        });
+    </script>
+</head>
+<body>
+    <div id="header"></div>
+
+    <!--Content Section-->
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <h1>Welcome to BobDoleOwndU's Site!</h1>
+            <h2>Version 0.8</h2>
+            <p>Programming, gaming, modding, and more!</p>
+        </div>
+        <div>
+            <h3>This site is under heavy construction!</h3>
+            <div>
+                <p>Space Infiltrators has been added!</p>
+                <p>My JavaScript remake of Space Invaders is now available to play here.</p>
+            </div>
+            <div>
+                <p>Mirrored dukesrg's 3DS Spider Tools!</p>
+                <p>Rather than attempting to fix the multiple problems I was having with the 3DS section, I figured it would be easier to mirror dukesrg's 3DS tools, since I know they all work.</p>
+                <p>I stripped down what tools were available to the ones I thought were the most useful, but if anybody wants me to re-add any of the ones I removed then I can do so.</p>
+                <p>If you would like another tool added let me know and I'll add it!</p>
+            </div>
+            <p>You can contact me by messaging BobDoleOwndU on <a href="http://gbatemp.net/">GBAtemp</a>.</p>
+        </div>
+    </div>
+
+    <div id="footer"></div>
+</body>
+</html>
